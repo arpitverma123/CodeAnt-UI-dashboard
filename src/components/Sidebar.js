@@ -1,6 +1,6 @@
 import React from 'react';
 import { Code2, Cloud, HelpCircle, Settings, HeadphonesIcon, LogOut } from 'lucide-react';
-// import '../styles.css';  
+// import '../styles.css';
 
 const Sidebar = () => {
   return (
