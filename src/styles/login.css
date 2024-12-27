@@ -1,0 +1,107 @@
+.login-container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.login-card {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 28rem;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.login-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Login tabs styles */
+.tabs-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab-button.active {
+  background-color: #2563eb;
+  color: white;
+}
+
+.tab-button:not(.active) {
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+/* Login buttons styles */
+.login-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #f9fafb;
+}
+
+.login-button img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.privacy-text {
+  font-size: 0.875rem;
+  color: #6b7280;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.privacy-link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.privacy-link:hover {
+  text-decoration: underline;
+}
